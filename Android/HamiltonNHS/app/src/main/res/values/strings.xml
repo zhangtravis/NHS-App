@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hamilton NHS</string>
+    <string name="introduction_blurb"> The National Honor Society is devoted to excellence.
+        Each member of the National Honor Society is expected to portray the four pillars: Character, Leadership, Scholarship, and Service. </string>
+    <string name="introduction_officers"> President - Travis Zhang \n Vice President - Hannah Guan \n Secretary - Avantika Mitbander
+    \n Treasurer - William Zhou \n Historian - Macy Weber</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="activitytest">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nunc arcu, pharetra et metus ac, tempus sagittis ligula. Etiam interdum rutrum arcu, eget congue neque. Vestibulum vitae metus fringilla, euismod arcu ut, congue neque. Nulla non tellus porttitor, consequat est a, luctus dui. Nulla ac nisl neque. Suspendisse potenti. Nunc ornare ac quam id sagittis. Curabitur eget consectetur sapien.
+
+Proin placerat egestas quam vel luctus. Etiam sed odio gravida, pellentesque augue et, placerat urna. Maecenas tempor purus eget magna maximus volutpat. Curabitur sagittis turpis non faucibus tincidunt. Mauris lacinia fringilla nulla, a ullamcorper felis interdum quis. Suspendisse tempor est sit amet dictum aliquam. Donec malesuada ut turpis in vehicula. Suspendisse pretium euismod enim non consequat. Integer lobortis luctus diam id euismod. Quisque sit amet efficitur quam, ac vestibulum ante. Nam imperdiet tempus ante, interdum dictum justo mollis nec. Nulla lacinia, lacus sed maximus consequat, tortor lorem hendrerit leo, nec tincidunt leo elit a purus.
+
+In laoreet turpis et aliquet dictum. Nulla aliquam mi nec malesuada aliquet. Morbi tempus dapibus semper. Maecenas gravida felis libero, eget vestibulum mauris iaculis et. Etiam aliquet orci at est fringilla viverra. Aliquam nec sem metus. Sed lobortis, sapien vitae fringilla maximus, arcu nisl semper ex, eu dictum felis felis at nulla. Donec sit amet finibus eros.
+
+Vestibulum at risus a mauris auctor rutrum. Suspendisse ipsum ex, malesuada in justo eget, commodo accumsan magna. Duis id vehicula neque. Curabitur aliquam mi et mollis tincidunt. Curabitur interdum vitae tortor id ultrices. Aenean id bibendum enim, sed sollicitudin arcu. Aliquam ac mattis tellus. Aliquam nec odio pharetra, commodo mi a, accumsan sapien.
+
+Pellentesque diam urna, convallis posuere fringilla eget, sagittis eu sem. Nam bibendum cursus metus, id hendrerit enim malesuada at. Morbi elementum, tortor volutpat convallis auctor, odio risus pellentesque dolor, a pellentesque quam arcu a neque. Duis dignissim massa convallis condimentum lobortis. Vivamus dictum feugiat quam, porta pretium mi eleifend nec. Donec et ultricies turpis. Fusce quis nunc vitae risus efficitur accumsan. In mollis, justo nec convallis viverra, sem libero varius dolor, sed vestibulum libero nisi sit amet tortor.</string>
+</resources>

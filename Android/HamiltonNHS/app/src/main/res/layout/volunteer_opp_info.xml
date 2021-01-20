@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerID">
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="Activity:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:id="@+id/activitydesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="0dp"
+            android:layout_toEndOf="@+id/activity"
+            android:layout_toRightOf="@+id/activity"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@drawable/nhs_icon"/>
+
+        <TextView
+            android:id="@+id/date-time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/activitydesc"
+            android:text="Date &amp; Time:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/date_time_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/activitydesc"
+            android:layout_toEndOf="@+id/date-time"
+            android:layout_toRightOf="@+id/date-time"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@drawable/nhs_icon"/>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/date_time_desc"
+            android:text="Contact:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/contactdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/date_time_desc"
+            android:layout_toEndOf="@+id/contact"
+            android:layout_toRightOf="@+id/contact"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@drawable/nhs_icon"/>
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/contactdesc"
+            android:text="Place:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/placedesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/contactdesc"
+            android:layout_toEndOf="@+id/place"
+            android:layout_toRightOf="@+id/place"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@drawable/nhs_icon"/>
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/placedesc"
+            android:text="Website:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/websitedesc"
+            android:autoLink="all"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/placedesc"
+            android:layout_toEndOf="@+id/website"
+            android:layout_toRightOf="@+id/website"
+            android:typeface="sans"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/nhs_icon"/>
+
+    </RelativeLayout>
+</ScrollView>

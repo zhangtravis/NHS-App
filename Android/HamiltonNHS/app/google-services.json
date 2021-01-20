@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "817734908556",
+    "firebase_url": "https://national-honors-society.firebaseio.com",
+    "project_id": "national-honors-society",
+    "storage_bucket": "national-honors-society.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817734908556:android:a5b2d771f1d5378ef599a9",
+        "android_client_info": {
+          "package_name": "com.example.hamiltonnhs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817734908556-b00s080vai7ji2v3ndjsgu35e18fg7vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeyxKdUynuQXNkZW6ymJf_7YSnbVpwB2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817734908556-b00s080vai7ji2v3ndjsgu35e18fg7vd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "817734908556-mqb1u7q4huferui1pakd83ss1ol97uof.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.traviszhang.Final-NHS-App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
